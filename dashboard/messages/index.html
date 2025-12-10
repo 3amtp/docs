@@ -1,0 +1,2444 @@
+
+<!doctype html>
+<html lang="vi" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Complete documentation for PilotPractice Dashboard and Widget">
+      
+      
+        <meta name="author" content="Team">
+      
+      
+      
+        <link rel="prev" href="../calls/">
+      
+      
+        <link rel="next" href="../fax/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>📧 Messages - PilotPractice Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#messages-screen-quan-ly-tin-nhan-tap-trung" class="md-skip">
+          Bỏ qua
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Đầu trang">
+    <a href="../.." title="PilotPractice Documentation" class="md-header__button md-logo" aria-label="PilotPractice Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PilotPractice Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              📧 Messages
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Tìm kiếm" placeholder="Tìm kiếm" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Tìm kiếm">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Xoá" aria-label="Xoá" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  🎯 Dashboard
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../widget/Widget/" class="md-tabs__link">
+          
+  
+  
+  🧩 Widget
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../api/API/" class="md-tabs__link">
+          
+  
+  
+  🔌 API
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../intake-form/IntakeForm/" class="md-tabs__link">
+          
+  
+  
+  📋 Intake Form
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../workflow/Workflow/" class="md-tabs__link">
+          
+  
+  
+  ⚙️ Workflow
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Thanh điều hướng" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="PilotPractice Documentation" class="md-nav__button md-logo" aria-label="PilotPractice Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    PilotPractice Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎯 Dashboard
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🎯 Dashboard
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modules
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Modules
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tickets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎫 Tickets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../calendar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📅 Calendar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contacts-leads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    👥 Contacts & Leads
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📝 Forms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workflows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔄 Workflows
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../payment-billing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    💰 Payment & Billing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚙️ Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../client-portal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🏥 Client Portal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other-modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📊 Other Modules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Communication
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Communication
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../calls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📞 Calls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📧 Messages
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📧 Messages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-gioi-thieu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Giới thiệu
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-yeu-cau-chuc-nang" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Yêu cầu chức năng
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Yêu cầu chức năng">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-hien-thi-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Hiển thị Messages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-chi-tiet-conversation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Chi tiết Conversation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-gui-tin-nhan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Gửi Tin nhắn
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-api-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. API Endpoints
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. API Endpoints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-sendmessageparams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 SendMessageParams
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-getmessagesparams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 GetMessagesParams
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-websocket-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. WebSocket Events
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-redux-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Redux State
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Redux State">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-message-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Message State
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-luu-y-ky-thuat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Lưu ý kỹ thuật
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Lưu ý kỹ thuật">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-email-threading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Email Threading
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-sms-character-count" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 SMS Character Count
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-attachments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Attachments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-ai-reply" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 AI Reply
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#65-real-time-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5 Real-time Updates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#66-channel-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6 Channel Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-component-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Component Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-message-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Message Types
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Message Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81-sms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 SMS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-email" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 Email
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83-facebookinstagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3 Facebook/Instagram
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#84-chat-widget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4 Chat Widget
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Permissions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fax/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📠 Fax
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../voicemails/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎙️ Voicemails
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧩 Widget
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🧩 Widget
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../widget/Widget/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔌 API
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🔌 API
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/API/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📋 Intake Form
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    📋 Intake Form
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../intake-form/IntakeForm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚙️ Workflow
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ⚙️ Workflow
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../workflow/Workflow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-gioi-thieu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Giới thiệu
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-yeu-cau-chuc-nang" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Yêu cầu chức năng
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Yêu cầu chức năng">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-hien-thi-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Hiển thị Messages
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-chi-tiet-conversation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Chi tiết Conversation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-gui-tin-nhan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Gửi Tin nhắn
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Advanced Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-api-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. API Endpoints
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. API Endpoints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-sendmessageparams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 SendMessageParams
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-getmessagesparams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 GetMessagesParams
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-websocket-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. WebSocket Events
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-redux-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Redux State
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Redux State">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-message-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Message State
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-luu-y-ky-thuat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Lưu ý kỹ thuật
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Lưu ý kỹ thuật">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-email-threading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Email Threading
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-sms-character-count" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 SMS Character Count
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-attachments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Attachments
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-ai-reply" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.4 AI Reply
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#65-real-time-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.5 Real-time Updates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#66-channel-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.6 Channel Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-component-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Component Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-message-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Message Types
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Message Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81-sms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 SMS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-email" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 Email
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83-facebookinstagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3 Facebook/Instagram
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#84-chat-widget" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4 Chat Widget
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Permissions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="messages-screen-quan-ly-tin-nhan-tap-trung">Messages Screen - Quản lý tin nhắn tập trung<a class="headerlink" href="#messages-screen-quan-ly-tin-nhan-tap-trung" title="Permanent link">&para;</a></h1>
+<h2 id="1-gioi-thieu">1. Giới thiệu<a class="headerlink" href="#1-gioi-thieu" title="Permanent link">&para;</a></h2>
+<p>Màn hình Messages là inbox tập trung cho tất cả tin nhắn từ các kênh (SMS, Email, Facebook, Instagram, Chat Widget...).</p>
+<p><strong>Routes:</strong>
+- <code>/messages</code> - Danh sách tất cả conversations
+- <code>/messages/:id</code> - Chi tiết conversation cụ thể</p>
+<p><strong>Scope:</strong> Xem, gửi, trả lời tin nhắn qua nhiều kênh, quản lý conversations.</p>
+<hr />
+<h2 id="2-yeu-cau-chuc-nang">2. Yêu cầu chức năng<a class="headerlink" href="#2-yeu-cau-chuc-nang" title="Permanent link">&para;</a></h2>
+<h3 id="21-hien-thi-messages">2.1 Hiển thị Messages<a class="headerlink" href="#21-hien-thi-messages" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Danh sách conversations theo lead</li>
+<li>Group theo kênh:</li>
+<li>SMS</li>
+<li>Email (với threading)</li>
+<li>Facebook Messenger</li>
+<li>Instagram DM</li>
+<li>Chat Widget</li>
+<li>WhatsApp (nếu có)</li>
+<li>Filter theo:</li>
+<li>Type: <code>sms</code>, <code>email</code>, <code>facebook</code>, <code>instagram</code>, <code>chat</code></li>
+<li>Read/Unread</li>
+<li>Has attachments</li>
+<li>Search theo keyword</li>
+<li>Pagination</li>
+</ul>
+<h3 id="22-chi-tiet-conversation">2.2 Chi tiết Conversation<a class="headerlink" href="#22-chi-tiet-conversation" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Thread messages theo thời gian</li>
+<li>Hiển thị:</li>
+<li>Message content (text/html)</li>
+<li>Attachments (images, files, videos)</li>
+<li>Sender info (lead/staff)</li>
+<li>Timestamp</li>
+<li>Read status</li>
+<li>Delivery status (sent/delivered/failed)</li>
+<li>Email threading (group emails theo subject/thread_id)</li>
+<li>Real-time updates qua WebSocket</li>
+</ul>
+<h3 id="23-gui-tin-nhan">2.3 Gửi Tin nhắn<a class="headerlink" href="#23-gui-tin-nhan" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>SMS:</strong></li>
+<li>Gửi text message</li>
+<li>Attach images/files</li>
+<li>Character count (160 chars/segment)</li>
+<li><strong>Email:</strong></li>
+<li>Rich text editor (HTML)</li>
+<li>Subject line</li>
+<li>CC/BCC</li>
+<li>Attachments</li>
+<li>Reply/Forward</li>
+<li>Email threading</li>
+<li><strong>Social (FB/IG):</strong></li>
+<li>Text message</li>
+<li>Images/GIFs</li>
+<li>Quick replies</li>
+<li><strong>Chat Widget:</strong></li>
+<li>Text message</li>
+<li>Attachments</li>
+<li>Typing indicator</li>
+</ul>
+<h3 id="24-advanced-features">2.4 Advanced Features<a class="headerlink" href="#24-advanced-features" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>AI Reply:</strong> Generate reply bằng AI (<code>by_ai: true</code>)</li>
+<li><strong>Templates:</strong> Use message templates</li>
+<li><strong>Mentions:</strong> @mention staff trong internal notes</li>
+<li><strong>Attachments:</strong> Upload files (images, documents, videos)</li>
+<li><strong>Threading:</strong> Email threading theo <code>thread_id</code></li>
+</ul>
+<hr />
+<h2 id="3-api-endpoints">3. API Endpoints<a class="headerlink" href="#3-api-endpoints" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Mục đích</th>
+<th>Params</th>
+<th>Response</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/api/messages</code></td>
+<td>Lấy danh sách messages</td>
+<td><code>lead_id?</code>, <code>type?</code>, <code>has?</code>, <code>with?</code>, <code>limit?</code>, <code>page?</code>, <code>in[messageable_type]?</code></td>
+<td><code>CommonPagination&lt;Message&gt;</code></td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/api/messages/:id</code></td>
+<td>Lấy chi tiết message</td>
+<td><code>id</code></td>
+<td><code>Message</code></td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/api/messages</code></td>
+<td>Gửi message mới</td>
+<td><code>SendMessageParams</code></td>
+<td><code>Message</code></td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/api/messages/:id</code></td>
+<td>Xóa message</td>
+<td><code>id</code></td>
+<td><code>Message</code></td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/api/send-link-message</code></td>
+<td>Gửi link download mobile app</td>
+<td><code>to_number</code></td>
+<td><code>unknown</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="31-sendmessageparams">3.1 SendMessageParams<a class="headerlink" href="#31-sendmessageparams" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nx">message</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span><span class="w">         </span><span class="c1">// Message content</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nx">channel_id</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span><span class="w">             </span><span class="c1">// Channel ID (required)</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="nx">to</span><span class="o">:</span><span class="w"> </span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">fb_id?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span><span class="w"> </span><span class="nx">insta_id?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="p">}</span><span class="w">  </span><span class="c1">// For social</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="o">|</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">lead_id?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span><span class="w"> </span><span class="nx">email?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span><span class="w"> </span><span class="nx">phone?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="p">}[];</span><span class="w">  </span><span class="c1">// For SMS/Email</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">  </span><span class="c1">// Email specific</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">  </span><span class="nx">email_message</span><span class="o">?:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">    </span><span class="nx">html</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span><span class="w">          </span><span class="c1">// HTML content</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="nx">subject</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span><span class="w">              </span><span class="c1">// Email subject</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="nx">cc</span><span class="o">?:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">lead_id?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span><span class="w"> </span><span class="nx">email?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="p">}[];</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="nx">bcc</span><span class="o">?:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">lead_id?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span><span class="w"> </span><span class="nx">email?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="p">}[];</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">    </span><span class="nx">thread_id?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span><span class="w">           </span><span class="c1">// For threading</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">  </span><span class="p">};</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">  </span><span class="c1">// SMS specific</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">  </span><span class="nx">sms_message</span><span class="o">?:</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">    </span><span class="nx">to</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">lead_id?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span><span class="w"> </span><span class="nx">phone?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="p">}[];</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">  </span><span class="p">};</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">  </span><span class="nx">reply_to?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span><span class="w">              </span><span class="c1">// Reply to message ID</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">  </span><span class="nx">attachments?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">[];</span><span class="w">         </span><span class="c1">// File IDs</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">  </span><span class="nx">by_ai?</span><span class="o">:</span><span class="w"> </span><span class="kt">boolean</span><span class="p">;</span><span class="w">                </span><span class="c1">// AI generated reply</span>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="32-getmessagesparams">3.2 GetMessagesParams<a class="headerlink" href="#32-getmessagesparams" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="nx">lead_id?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span><span class="w">               </span><span class="c1">// Filter by lead</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="kr">type</span><span class="nx">?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span><span class="w">                  </span><span class="c1">// &#39;sms&#39; | &#39;email&#39; | &#39;facebook&#39; | &#39;instagram&#39;</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span><span class="nx">has?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span><span class="w">                   </span><span class="c1">// &#39;attachments&#39; | &#39;unread&#39;</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">  </span><span class="nx">with?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span><span class="w">                  </span><span class="c1">// Include relations</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">  </span><span class="nx">limit?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">  </span><span class="nx">page?</span><span class="o">:</span><span class="w"> </span><span class="kt">number</span><span class="p">;</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">  </span><span class="s2">&quot;in[messageable_type]&quot;</span><span class="nx">?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span><span class="w"> </span><span class="c1">// Filter by messageable type</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="p">}</span>
+</code></pre></div>
+<hr />
+<h2 id="4-websocket-events">4. WebSocket Events<a class="headerlink" href="#4-websocket-events" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Event Type</th>
+<th>Trigger</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>NEW_MESSAGE</code></td>
+<td>Tin nhắn mới</td>
+<td>Invalidate <code>['messages', leadId]</code>, show notification, update unread count</td>
+</tr>
+<tr>
+<td><code>MESSAGE_UPDATED</code></td>
+<td>Tin nhắn được cập nhật</td>
+<td>Invalidate <code>['messages', leadId]</code>, refresh UI</td>
+</tr>
+<tr>
+<td><code>MESSAGE_DELETED</code></td>
+<td>Tin nhắn bị xóa</td>
+<td>Invalidate <code>['messages', leadId]</code>, remove from UI</td>
+</tr>
+<tr>
+<td><code>TYPING</code></td>
+<td>Lead đang typing</td>
+<td>Show typing indicator</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="5-redux-state">5. Redux State<a class="headerlink" href="#5-redux-state" title="Permanent link">&para;</a></h2>
+<h3 id="51-message-state">5.1 Message State<a class="headerlink" href="#51-message-state" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>lead.message.showMessageModal</code> - Show/hide compose modal</li>
+<li><code>lead.message.isGlobalPopup</code> - Global compose popup</li>
+<li><code>lead.message.isOpenEmailFormGlobal</code> - Email form state</li>
+<li><code>lead.message.isOpenSmsFormGlobal</code> - SMS form state</li>
+</ul>
+<h3 id="52-actions">5.2 Actions<a class="headerlink" href="#52-actions" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>doSetShowMessageModal()</code> - Toggle message modal</li>
+<li><code>doSetOpenEmailForm()</code> - Open email form</li>
+<li><code>doSetOpenSmsForm()</code> - Open SMS form</li>
+<li><code>doSetGlobalPopUp()</code> - Toggle global popup</li>
+</ul>
+<hr />
+<h2 id="6-luu-y-ky-thuat">6. Lưu ý kỹ thuật<a class="headerlink" href="#6-luu-y-ky-thuat" title="Permanent link">&para;</a></h2>
+<h3 id="61-email-threading">6.1 Email Threading<a class="headerlink" href="#61-email-threading" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Group emails theo <code>thread_id</code></li>
+<li>Display như conversation thread</li>
+<li>Reply sẽ có cùng <code>thread_id</code></li>
+<li>Subject line format: <code>Re: Original Subject</code></li>
+</ul>
+<h3 id="62-sms-character-count">6.2 SMS Character Count<a class="headerlink" href="#62-sms-character-count" title="Permanent link">&para;</a></h3>
+<ul>
+<li>160 characters = 1 segment</li>
+<li>Special characters count as 2</li>
+<li>Show character count và segment count</li>
+<li>Warning khi &gt; 3 segments</li>
+</ul>
+<h3 id="63-attachments">6.3 Attachments<a class="headerlink" href="#63-attachments" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Upload files trước khi send message</li>
+<li>Get file IDs từ upload response</li>
+<li>Pass file IDs trong <code>attachments</code> array</li>
+<li>Support: images, documents, videos</li>
+</ul>
+<h3 id="64-ai-reply">6.4 AI Reply<a class="headerlink" href="#64-ai-reply" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Set <code>by_ai: true</code> trong params</li>
+<li>Backend generate reply dựa trên conversation context</li>
+<li>Show "AI Generated" badge</li>
+<li>Allow edit trước khi send</li>
+</ul>
+<h3 id="65-real-time-updates">6.5 Real-time Updates<a class="headerlink" href="#65-real-time-updates" title="Permanent link">&para;</a></h3>
+<ul>
+<li>WebSocket connection cho real-time messages</li>
+<li>Typing indicator</li>
+<li>Read receipts</li>
+<li>Delivery status updates</li>
+</ul>
+<h3 id="66-channel-detection">6.6 Channel Detection<a class="headerlink" href="#66-channel-detection" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Auto-detect channel từ <code>channel_id</code></li>
+<li>Different UI cho mỗi channel type</li>
+<li>Email: Rich text editor</li>
+<li>SMS: Plain text với character count</li>
+<li>Social: Quick replies, GIFs</li>
+</ul>
+<hr />
+<h2 id="7-component-structure">7. Component Structure<a class="headerlink" href="#7-component-structure" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>pages/apps/messages.tsx
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>└── containers/apps/ticket/
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    ├── wrapper/
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    ├── sidebar/              # Conversation list
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    ├── message/
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    │   ├── index.tsx         # Message group/filter
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    │   └── main-message/     # Message thread
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>    └── chat-form/            # Compose message form
+</code></pre></div>
+<hr />
+<h2 id="8-message-types">8. Message Types<a class="headerlink" href="#8-message-types" title="Permanent link">&para;</a></h2>
+<h3 id="81-sms">8.1 SMS<a class="headerlink" href="#81-sms" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Plain text</li>
+<li>Max 1600 characters (10 segments)</li>
+<li>Attachments: images only</li>
+<li>No formatting</li>
+</ul>
+<h3 id="82-email">8.2 Email<a class="headerlink" href="#82-email" title="Permanent link">&para;</a></h3>
+<ul>
+<li>HTML content</li>
+<li>Rich text editor</li>
+<li>Subject, CC, BCC</li>
+<li>Attachments: any file type</li>
+<li>Threading support</li>
+</ul>
+<h3 id="83-facebookinstagram">8.3 Facebook/Instagram<a class="headerlink" href="#83-facebookinstagram" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Text message</li>
+<li>Images, GIFs</li>
+<li>Quick replies</li>
+<li>Reactions (nếu support)</li>
+</ul>
+<h3 id="84-chat-widget">8.4 Chat Widget<a class="headerlink" href="#84-chat-widget" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Text message</li>
+<li>Attachments</li>
+<li>Typing indicator</li>
+<li>Read receipts</li>
+</ul>
+<hr />
+<h2 id="9-permissions">9. Permissions<a class="headerlink" href="#9-permissions" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>All roles:</strong> Có thể gửi/nhận messages</li>
+<li><strong>Staff:</strong> Chỉ xem messages của leads được assign</li>
+<li><strong>Admin/Owner:</strong> Xem tất cả messages</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Trở lại mục lục
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 PilotPractice Dashboard Team
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0110\u00e3 sao ch\u00e9p", "clipboard.copy": "Sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m", "search.result.more.one": "1 t\u1eeb kh\u00e1c trong trang", "search.result.more.other": "# t\u1eeb kh\u00e1c trong trang", "search.result.none": "Kh\u00f4ng t\u00ecm th\u1ea5y t\u00e0i li\u1ec7u li\u00ean quan", "search.result.one": "1 t\u00e0i li\u1ec7u li\u00ean quan", "search.result.other": "# t\u00e0i li\u1ec7u li\u00ean quan", "search.result.placeholder": "Nh\u1eadp \u0111\u1ec3 b\u1eaft \u0111\u1ea7u t\u00ecm ki\u1ebfm", "search.result.term.missing": "Kh\u00f4ng", "select.version": "Ch\u1ecdn phi\u00ean b\u1ea3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

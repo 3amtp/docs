@@ -1,0 +1,2858 @@
+
+<!doctype html>
+<html lang="vi" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Complete documentation for PilotPractice Dashboard and Widget">
+      
+      
+        <meta name="author" content="Team">
+      
+      
+      
+        <link rel="prev" href="../payment-billing/">
+      
+      
+        <link rel="next" href="../client-portal/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>⚙️ Settings - PilotPractice Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#settings-module-cau-hinh-he-thong" class="md-skip">
+          Bỏ qua
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Đầu trang">
+    <a href="../.." title="PilotPractice Documentation" class="md-header__button md-logo" aria-label="PilotPractice Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PilotPractice Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ⚙️ Settings
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Tìm kiếm" placeholder="Tìm kiếm" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Tìm kiếm">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Xoá" aria-label="Xoá" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  🎯 Dashboard
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../widget/Widget/" class="md-tabs__link">
+          
+  
+  
+  🧩 Widget
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../api/API/" class="md-tabs__link">
+          
+  
+  
+  🔌 API
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../intake-form/IntakeForm/" class="md-tabs__link">
+          
+  
+  
+  📋 Intake Form
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../workflow/Workflow/" class="md-tabs__link">
+          
+  
+  
+  ⚙️ Workflow
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Thanh điều hướng" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="PilotPractice Documentation" class="md-nav__button md-logo" aria-label="PilotPractice Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    PilotPractice Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎯 Dashboard
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🎯 Dashboard
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modules
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Modules
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tickets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎫 Tickets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../calendar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📅 Calendar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contacts-leads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    👥 Contacts & Leads
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📝 Forms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workflows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔄 Workflows
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../payment-billing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    💰 Payment & Billing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚙️ Settings
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚙️ Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-gioi-thieu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Giới thiệu
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-nested-routes-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Nested Routes Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Nested Routes Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-account-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Account &amp; Practice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-subscription-billing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Subscription &amp; Billing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-services-procedures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Services &amp; Procedures
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-blogs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Blogs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-channels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Channels
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-notification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6 Notification
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-admin-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.7 Admin &amp; Users
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-default-route" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.8 Default Route
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-api-endpoints-tong-hop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. API Endpoints (Tổng hợp)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. API Endpoints (Tổng hợp)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Account
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Practice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Services
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-channels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Channels
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-manage-users-staffs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Manage Users (Staffs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-subscription" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6 Subscription
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#37-billing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7 Billing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-luu-y-ky-thuat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Lưu ý kỹ thuật
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Lưu ý kỹ thuật">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Permissions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-service-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Service Categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-channel-apps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Channel Apps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-nested-routing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 Nested Routing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-redux-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 Redux State
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-component-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Component Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-settings-sidebar-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Settings Sidebar Menu
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Settings Sidebar Menu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-menu-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Menu Structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-conditional-menu-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Conditional Menu Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Key Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Key Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-account-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 Account Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-practice-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 Practice Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-services-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 Services Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#74-channels-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.4 Channels Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#75-manage-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5 Manage Users
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../client-portal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🏥 Client Portal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other-modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📊 Other Modules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Communication
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Communication
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../calls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📞 Calls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../messages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📧 Messages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fax/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📠 Fax
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../voicemails/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎙️ Voicemails
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧩 Widget
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🧩 Widget
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../widget/Widget/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔌 API
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🔌 API
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../api/API/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📋 Intake Form
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    📋 Intake Form
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../intake-form/IntakeForm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚙️ Workflow
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ⚙️ Workflow
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../workflow/Workflow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-gioi-thieu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Giới thiệu
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-nested-routes-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Nested Routes Structure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Nested Routes Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-account-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Account &amp; Practice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-subscription-billing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Subscription &amp; Billing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-services-procedures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Services &amp; Procedures
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-blogs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Blogs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-channels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Channels
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-notification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6 Notification
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-admin-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.7 Admin &amp; Users
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-default-route" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.8 Default Route
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-api-endpoints-tong-hop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. API Endpoints (Tổng hợp)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. API Endpoints (Tổng hợp)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Account
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Practice
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Services
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-channels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Channels
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-manage-users-staffs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Manage Users (Staffs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-subscription" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6 Subscription
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#37-billing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.7 Billing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-luu-y-ky-thuat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Lưu ý kỹ thuật
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Lưu ý kỹ thuật">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Permissions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-service-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Service Categories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-channel-apps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Channel Apps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-nested-routing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 Nested Routing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-redux-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.5 Redux State
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-component-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Component Structure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-settings-sidebar-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Settings Sidebar Menu
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Settings Sidebar Menu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-menu-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Menu Structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-conditional-menu-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Conditional Menu Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Key Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Key Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-account-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 Account Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-practice-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 Practice Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-services-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 Services Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#74-channels-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.4 Channels Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#75-manage-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5 Manage Users
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="settings-module-cau-hinh-he-thong">Settings Module - Cấu hình hệ thống<a class="headerlink" href="#settings-module-cau-hinh-he-thong" title="Permanent link">&para;</a></h1>
+<h2 id="1-gioi-thieu">1. Giới thiệu<a class="headerlink" href="#1-gioi-thieu" title="Permanent link">&para;</a></h2>
+<p>Module Settings quản lý tất cả cấu hình của project, bao gồm account, practice info, services, channels, users, billing, subscriptions...</p>
+<p><strong>Main Route:</strong> <code>/settings</code></p>
+<p><strong>Nested Routes:</strong> (19 sub-routes)</p>
+<hr />
+<h2 id="2-nested-routes-structure">2. Nested Routes Structure<a class="headerlink" href="#2-nested-routes-structure" title="Permanent link">&para;</a></h2>
+<h3 id="21-account-practice">2.1 Account &amp; Practice<a class="headerlink" href="#21-account-practice" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Route</th>
+<th>Component</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/settings/account</code></td>
+<td>Account</td>
+<td>Thông tin tài khoản cá nhân (profile, password, 2FA)</td>
+</tr>
+<tr>
+<td><code>/settings/practice</code></td>
+<td>Practice</td>
+<td>Thông tin practice (name, address, logo, timezone, business hours)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="22-subscription-billing">2.2 Subscription &amp; Billing<a class="headerlink" href="#22-subscription-billing" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Route</th>
+<th>Component</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/settings/subscription</code></td>
+<td>Subscription</td>
+<td>Quản lý subscription plan, upgrade/downgrade</td>
+</tr>
+<tr>
+<td><code>/settings/billing</code></td>
+<td>Billing</td>
+<td>Payment methods, billing history, invoices</td>
+</tr>
+</tbody>
+</table>
+<h3 id="23-services-procedures">2.3 Services &amp; Procedures<a class="headerlink" href="#23-services-procedures" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Route</th>
+<th>Component</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/settings/services</code></td>
+<td>Services</td>
+<td>Danh sách services/procedures</td>
+</tr>
+<tr>
+<td><code>/settings/services/:id</code></td>
+<td>ServiceDetails</td>
+<td>Chi tiết service (name, price, duration, category)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="24-blogs">2.4 Blogs<a class="headerlink" href="#24-blogs" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Route</th>
+<th>Component</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/settings/blogs</code></td>
+<td>Blogs</td>
+<td>Quản lý blog posts (cho website/marketing)</td>
+</tr>
+<tr>
+<td><code>/settings/blogs/:id</code></td>
+<td>BlogDetails</td>
+<td>Chi tiết blog post (title, content, SEO)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="25-channels">2.5 Channels<a class="headerlink" href="#25-channels" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Route</th>
+<th>Component</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/settings/channels</code></td>
+<td>Channels</td>
+<td>Danh sách channels (SMS, Email, Voice, Fax, Social...)</td>
+</tr>
+<tr>
+<td><code>/settings/channels/webhook-url/</code></td>
+<td>ChannelAppWebhookUrlDetail</td>
+<td>Webhook URL config</td>
+</tr>
+<tr>
+<td><code>/settings/channels/:channelApp/</code></td>
+<td>ChannelAppDetail</td>
+<td>Chi tiết channel app (Jira, Slack, Zapier...)</td>
+</tr>
+<tr>
+<td><code>/settings/channels/:channelApp/:name</code></td>
+<td>ChannelDetail</td>
+<td>Chi tiết channel cụ thể</td>
+</tr>
+</tbody>
+</table>
+<h3 id="26-notification">2.6 Notification<a class="headerlink" href="#26-notification" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Route</th>
+<th>Component</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/settings/notification</code></td>
+<td>NotificationSetting</td>
+<td>Cấu hình notifications (email, SMS, push)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="27-admin-users">2.7 Admin &amp; Users<a class="headerlink" href="#27-admin-users" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Route</th>
+<th>Component</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/settings/admin</code></td>
+<td>Admin</td>
+<td>Admin settings (locations, teams, roles)</td>
+</tr>
+<tr>
+<td><code>/settings/admin/users</code></td>
+<td>Admin (isUsers)</td>
+<td>User management trong admin</td>
+</tr>
+<tr>
+<td><code>/settings/manage-users</code></td>
+<td>ManageUsers</td>
+<td>Quản lý staffs (chỉ admin/owner)</td>
+</tr>
+<tr>
+<td><code>/settings/manage-users/staff/:id</code></td>
+<td>StaffDetails</td>
+<td>Chi tiết staff (permissions, schedule, locations)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="28-default-route">2.8 Default Route<a class="headerlink" href="#28-default-route" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Nếu không match route nào → Redirect to <code>/settings/practice</code></li>
+</ul>
+<hr />
+<h2 id="3-api-endpoints-tong-hop">3. API Endpoints (Tổng hợp)<a class="headerlink" href="#3-api-endpoints-tong-hop" title="Permanent link">&para;</a></h2>
+<h3 id="31-account">3.1 Account<a class="headerlink" href="#31-account" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/api/user</code></td>
+<td>Lấy thông tin user</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/api/user</code></td>
+<td>Cập nhật user profile</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/api/user/password</code></td>
+<td>Đổi password</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/api/user/2fa/enable</code></td>
+<td>Bật 2FA</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/api/user/2fa/disable</code></td>
+<td>Tắt 2FA</td>
+</tr>
+</tbody>
+</table>
+<h3 id="32-practice">3.2 Practice<a class="headerlink" href="#32-practice" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/api/project</code></td>
+<td>Lấy thông tin project</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/api/project</code></td>
+<td>Cập nhật project info</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/api/project/logo</code></td>
+<td>Upload logo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="33-services">3.3 Services<a class="headerlink" href="#33-services" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/api/service-categories</code></td>
+<td>Lấy categories</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/api/procedures</code></td>
+<td>Lấy danh sách services</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/api/procedures/:id</code></td>
+<td>Chi tiết service</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/api/procedures</code></td>
+<td>Tạo service</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/api/procedures/:id</code></td>
+<td>Cập nhật service</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/api/procedures/:id</code></td>
+<td>Xóa service</td>
+</tr>
+</tbody>
+</table>
+<h3 id="34-channels">3.4 Channels<a class="headerlink" href="#34-channels" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/api/channels</code></td>
+<td>Lấy danh sách channels</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/api/channels/:id</code></td>
+<td>Chi tiết channel</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/api/channels</code></td>
+<td>Tạo channel</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/api/channels/:id</code></td>
+<td>Cập nhật channel</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/api/channels/:id</code></td>
+<td>Xóa channel</td>
+</tr>
+</tbody>
+</table>
+<h3 id="35-manage-users-staffs">3.5 Manage Users (Staffs)<a class="headerlink" href="#35-manage-users-staffs" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/api/staffs</code></td>
+<td>Lấy danh sách staffs</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/api/staffs/:id</code></td>
+<td>Chi tiết staff</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/api/staffs</code></td>
+<td>Tạo staff (invite)</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td><code>/api/staffs/:id</code></td>
+<td>Cập nhật staff</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/api/staffs/:id</code></td>
+<td>Xóa staff</td>
+</tr>
+</tbody>
+</table>
+<h3 id="36-subscription">3.6 Subscription<a class="headerlink" href="#36-subscription" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/api/subscriptions</code></td>
+<td>Lấy subscription info</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/api/subscriptions/upgrade</code></td>
+<td>Upgrade plan</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/api/subscriptions/downgrade</code></td>
+<td>Downgrade plan</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/api/subscriptions/cancel</code></td>
+<td>Cancel subscription</td>
+</tr>
+</tbody>
+</table>
+<h3 id="37-billing">3.7 Billing<a class="headerlink" href="#37-billing" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td><code>/api/payment-methods</code></td>
+<td>Lấy payment methods</td>
+</tr>
+<tr>
+<td>POST</td>
+<td><code>/api/payment-methods</code></td>
+<td>Thêm payment method</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td><code>/api/payment-methods/:id</code></td>
+<td>Xóa payment method</td>
+</tr>
+<tr>
+<td>GET</td>
+<td><code>/api/invoices</code></td>
+<td>Lấy billing history</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="4-luu-y-ky-thuat">4. Lưu ý kỹ thuật<a class="headerlink" href="#4-luu-y-ky-thuat" title="Permanent link">&para;</a></h2>
+<h3 id="41-permissions">4.1 Permissions<a class="headerlink" href="#41-permissions" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Staff role:</strong> Không thể access <code>/settings/manage-users</code>, <code>/settings/billing</code>, <code>/settings/subscription</code></li>
+<li><strong>Admin/Owner:</strong> Full access tất cả settings</li>
+<li>Check <code>staffRole !== "staff"</code> trước khi render manage-users routes</li>
+</ul>
+<h3 id="42-service-categories">4.2 Service Categories<a class="headerlink" href="#42-service-categories" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fetch service categories khi mount Settings Main</li>
+<li>Store trong Redux: <code>setting.services.procedure.pageCategory</code></li>
+<li>Pagination: <code>pageCategory</code> state</li>
+<li>Use cho cả Services settings và Widget service selection</li>
+</ul>
+<h3 id="43-channel-apps">4.3 Channel Apps<a class="headerlink" href="#43-channel-apps" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Channel Apps:</strong> Jira, Slack, Zapier, Webhook, Google Calendar, Outlook...</li>
+<li>Route pattern: <code>/settings/channels/:channelApp/:name</code></li>
+<li><code>:channelApp</code> - App type (jira, slack, zapier...)</li>
+<li><code>:name</code> - Channel name/ID</li>
+<li>Webhook URL: Special route <code>/settings/channels/webhook-url/</code></li>
+</ul>
+<h3 id="44-nested-routing">4.4 Nested Routing<a class="headerlink" href="#44-nested-routing" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Settings sử dụng nested <code>&lt;Switch&gt;</code> trong Main component</li>
+<li>Mỗi sub-route render component riêng</li>
+<li>Shared Sidebar component cho navigation</li>
+<li>ScrollBar component wrap content</li>
+</ul>
+<h3 id="45-redux-state">4.5 Redux State<a class="headerlink" href="#45-redux-state" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>setting.services.procedure.serviceCategories</code> - Service categories</li>
+<li><code>setting.services.procedure.pageCategory</code> - Current page</li>
+<li><code>setting.services.procedure.totalPageCategory</code> - Total pages</li>
+<li><code>setting.channels.widgetServiceCategories</code> - Widget service categories</li>
+<li><code>authentication.user.staff.type</code> - Staff role (staff/admin/owner)</li>
+</ul>
+<hr />
+<h2 id="5-component-structure">5. Component Structure<a class="headerlink" href="#5-component-structure" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pages/apps/settings.tsx
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>└── containers/apps/settings/
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    ├── sidebar/              # Settings navigation menu
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    └── main/
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>        └── &lt;Switch&gt;          # Nested routes
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>            ├── Account
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>            ├── Practice
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>            ├── Services
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>            ├── ServiceDetails
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>            ├── Blogs
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>            ├── BlogDetails
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>            ├── Channels
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>            ├── ChannelDetail
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>            ├── ChannelAppDetail
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>            ├── ChannelAppWebhookUrlDetail
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>            ├── NotificationSetting
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>            ├── ManageUsers
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>            ├── StaffDetails
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>            ├── Admin
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>            ├── Subscription
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>            └── Billing
+</code></pre></div>
+<hr />
+<h2 id="6-settings-sidebar-menu">6. Settings Sidebar Menu<a class="headerlink" href="#6-settings-sidebar-menu" title="Permanent link">&para;</a></h2>
+<h3 id="61-menu-structure">6.1 Menu Structure<a class="headerlink" href="#61-menu-structure" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Settings
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>├── Account
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>├── Practice Info
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>├── Services
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>├── Blogs
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>├── Channels
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>├── Notifications
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>├── Manage Users (Admin/Owner only)
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>├── Admin (Admin/Owner only)
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>├── Subscription
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>└── Billing (Admin/Owner only)
+</code></pre></div>
+<h3 id="62-conditional-menu-items">6.2 Conditional Menu Items<a class="headerlink" href="#62-conditional-menu-items" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Manage Users:</strong> Chỉ show nếu <code>staffRole !== "staff"</code></li>
+<li><strong>Billing:</strong> Chỉ show nếu <code>staffRole !== "staff"</code></li>
+<li><strong>Admin:</strong> Chỉ show nếu <code>staffRole !== "staff"</code></li>
+</ul>
+<hr />
+<h2 id="7-key-features">7. Key Features<a class="headerlink" href="#7-key-features" title="Permanent link">&para;</a></h2>
+<h3 id="71-account-settings">7.1 Account Settings<a class="headerlink" href="#71-account-settings" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Update profile (name, email, phone, avatar)</li>
+<li>Change password</li>
+<li>Enable/Disable 2FA</li>
+<li>Notification preferences</li>
+</ul>
+<h3 id="72-practice-settings">7.2 Practice Settings<a class="headerlink" href="#72-practice-settings" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Practice name, address, phone</li>
+<li>Logo upload</li>
+<li>Timezone selection</li>
+<li>Business hours</li>
+<li>Multi-location setup (nếu có)</li>
+</ul>
+<h3 id="73-services-management">7.3 Services Management<a class="headerlink" href="#73-services-management" title="Permanent link">&para;</a></h3>
+<ul>
+<li>CRUD services/procedures</li>
+<li>Categorize services</li>
+<li>Set price, duration</li>
+<li>Attach to booking widget</li>
+<li>Service addons</li>
+</ul>
+<h3 id="74-channels-management">7.4 Channels Management<a class="headerlink" href="#74-channels-management" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Configure communication channels:</li>
+<li>SMS (Twilio)</li>
+<li>Email (SMTP, Gmail, Outlook)</li>
+<li>Voice (Twilio)</li>
+<li>Fax (Twilio)</li>
+<li>Facebook Messenger</li>
+<li>Instagram DM</li>
+<li>Chat Widget</li>
+<li>Integration apps:</li>
+<li>Jira</li>
+<li>Slack</li>
+<li>Zapier</li>
+<li>Google Calendar</li>
+<li>Outlook Calendar</li>
+<li>Webhook</li>
+</ul>
+<h3 id="75-manage-users">7.5 Manage Users<a class="headerlink" href="#75-manage-users" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Invite staffs</li>
+<li>Set permissions</li>
+<li>Assign locations</li>
+<li>Set schedule/availability</li>
+<li>Deactivate/Delete users</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Trở lại mục lục
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 PilotPractice Dashboard Team
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0110\u00e3 sao ch\u00e9p", "clipboard.copy": "Sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m", "search.result.more.one": "1 t\u1eeb kh\u00e1c trong trang", "search.result.more.other": "# t\u1eeb kh\u00e1c trong trang", "search.result.none": "Kh\u00f4ng t\u00ecm th\u1ea5y t\u00e0i li\u1ec7u li\u00ean quan", "search.result.one": "1 t\u00e0i li\u1ec7u li\u00ean quan", "search.result.other": "# t\u00e0i li\u1ec7u li\u00ean quan", "search.result.placeholder": "Nh\u1eadp \u0111\u1ec3 b\u1eaft \u0111\u1ea7u t\u00ecm ki\u1ebfm", "search.result.term.missing": "Kh\u00f4ng", "select.version": "Ch\u1ecdn phi\u00ean b\u1ea3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
